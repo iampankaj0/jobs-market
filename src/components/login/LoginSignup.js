@@ -37,7 +37,7 @@ const LoginSignup = () => {
   }, [handleFormSubmit]);
 
   const goBack = () => {
-    navigate("/");
+    navigate("/jobs-market");
   };
 
   const handleLogin = () => {
