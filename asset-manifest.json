@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jobs-market/static/css/main.6cf2a1ff.css",
-    "main.js": "/jobs-market/static/js/main.a38f564e.js",
+    "main.js": "/jobs-market/static/js/main.1299e669.js",
     "static/media/home-illustration.png": "/jobs-market/static/media/home-illustration.26ecc4e67ec288e443b9.png",
     "static/media/icon.png": "/jobs-market/static/media/icon.1a151803027634ccf1e6.png",
     "static/media/header_rojgar_bazaar.jpg": "/jobs-market/static/media/header_rojgar_bazaar.dd52e00ab42f0bea6e4d.jpg",
     "static/media/logo.png": "/jobs-market/static/media/logo.ae2fef66c296bee68954.png",
     "index.html": "/jobs-market/index.html",
     "main.6cf2a1ff.css.map": "/jobs-market/static/css/main.6cf2a1ff.css.map",
-    "main.a38f564e.js.map": "/jobs-market/static/js/main.a38f564e.js.map"
+    "main.1299e669.js.map": "/jobs-market/static/js/main.1299e669.js.map"
   },
   "entrypoints": [
     "static/css/main.6cf2a1ff.css",
-    "static/js/main.a38f564e.js"
+    "static/js/main.1299e669.js"
   ]
 }
