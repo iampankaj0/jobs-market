@@ -1,0 +1,209 @@
+@import "colors";
+
+.loginSignup__main {
+    .backBtn {
+        background-color: transparent;
+        color: #000;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            color: $darkblue
+        }
+    }
+
+    .heading__top {
+        margin: 30px 0;
+
+        >h1,
+        >h2 {
+            color: $black;
+            font-size: 20px;
+
+            @media (max-width: 767px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 575px) {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width:767px) {
+            margin: 25px 0;
+        }
+    }
+
+    .login__input {
+        >label {
+            color: $black;
+            font-size: 13px;
+            margin: 0 0 5px 0;
+            display: block;
+        }
+
+        >p {
+            color: $lightblack;
+            font-size: 11px;
+            margin: 8px 0;
+            display: block;
+
+            >a {
+                color: $blue;
+                font-size: 13px;
+
+                &:hover {
+                    color: $darkblue;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        >input {
+            outline: none;
+            border: 1px solid #263838;
+            height: 35px;
+            width: 100%;
+            font-size: 16px;
+            padding: 5px;
+            box-sizing: border-box;
+            letter-spacing: 3px;
+            border-radius: 5px;
+        }
+
+        .submitButton {
+            color: #fff;
+            background-color: $darkblue;
+            padding: 7px 20px;
+            border-radius: 30px;
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            border: none;
+            cursor: pointer;
+            transition: 0.4s;
+
+            &:hover {
+                color: #fff;
+                background-color: $green;
+            }
+        }
+
+        .actionBtns {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+
+            >.submitButton {
+                margin: 0;
+            }
+
+            >.backButton {
+                background-color: transparent;
+                color: $black;
+                display: flex;
+                align-items: center;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+
+
+}
+
+
+.naukriType__main {
+    .login__input {
+        .naukriType__card {
+            border: 1px solid $lightblack;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 15px 0;
+
+            >p {
+                font-size: 16px;
+                margin: 0;
+
+                >span {
+                    display: block;
+                }
+            }
+
+            input[type=checkbox] {
+                width: 16px;
+                height: 16px;
+            }
+
+        }
+    }
+}
+
+
+.personalDetails__main {
+    >.login__input {
+        >div {
+            margin: 10px 0;
+
+            >label {
+                color: $black;
+                font-size: 13px;
+                margin: 0 0 5px 0;
+                display: block;
+            }
+
+            >input {
+                outline: none;
+                border: 1px solid #263838;
+                height: 35px;
+                width: 100%;
+                font-size: 16px;
+                padding: 5px;
+                box-sizing: border-box;
+                letter-spacing: 3px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            >div {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+                >label {
+                    border: 1px solid $lightblack;
+                    padding: 3px 15px;
+                    display: flex;
+                    border-radius: 50px;
+                    margin-right: 15px;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+
+                >input {
+                    margin-right: 5px;
+                    display: none;
+                }
+
+                .profile__radio:checked+.label__checked_radio {
+                    font-weight: 700;
+                    background-color: #c6edff;
+                    border-color: #0095DA;
+                    color: #0095DA;
+                }
+            }
+
+        }
+    }
+
+}

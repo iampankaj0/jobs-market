@@ -1,0 +1,41 @@
+@import "colors";
+
+
+.bottomNav__main {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+    >a {
+        color: inherit;
+
+        >div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            >svg {
+                font-size: 25px;
+            }
+
+            >span {
+                font-size: 12px;
+            }
+
+        }
+    }
+
+    >a.active {
+        color: $darkblue;
+    }
+}
